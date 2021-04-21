@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    /* overflow-x: scroll;
+    width:100%; */
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    list-style:none;
+    background: black;
+}
+.menu {
+    display:flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+}
+.logo h3{
+    color:white;
+    padding-left: 2em;
+}
+.navigation a {
+    text-decoration: none;
+    display:block;
+    padding: 2em;
+    padding-bottom:1em;
+    color:white;
+    
+}
+
+select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #d4ced6;
+ 
+  }
+  h3 {
+      text-align: center;
+  }
+.app__cards {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 1em;
+    
+}
+.left_side {
+    flex:1.5;
+}
+.right_side{
+
+    flex:2;
+    display: flex;
+    overflow: scroll;
+    height: 470px;
+}
+.map_container{
+    flex:1 100%;
+}
+
+.cases,.recovered,.deaths {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 12em;
+    border-radius: 7px;
+}
+.cases {
+    background:rgb(255, 215, 0);
+
+}
+.recovered {
+    background: rgba(0,255,0,0.3);
+}
+.deaths {
+    background:#B22222
+
+}
+  

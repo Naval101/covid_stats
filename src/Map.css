@@ -1,0 +1,31 @@
+.map {
+    height :450px
+}
+/* .info-container{
+    width:150px
+} */
+.info-name {
+font-weight: bold;
+font-size: 15px
+}
+.info-cases {
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(143, 48, 48)
+    
+}
+.info-deaths {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #d32d2d
+    
+}
+.info-recovered {
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgb(130, 204, 136)
+    
+}
+.info-container {
+    width: 150px
+}

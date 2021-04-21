@@ -1,0 +1,10 @@
+.app_chart {
+
+    display: flex;
+    flex-direction: row;
+  
+ 
+}
+.app_chart > * {
+    flex:1;
+}
