@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import "./News.css";
 
 function News() {
-    const [dataNews,setDataNews] = useState([]);
+    const [dataNews,setDataNews] = useState();
     const apikey= "f54c8955538e4cf29efa2003b9fc9ef0";
 
     useEffect(() => {
@@ -18,7 +18,7 @@ return (
    <div className ="news">
      {
          
-         dataNews.map((data)=>(
+         dataNews && dataNews.map((data)=>(
          <div className="breaknews">
          <img src={data.urlToImage} />
          <div className="new">
