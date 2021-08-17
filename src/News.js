@@ -3,10 +3,10 @@ import "./News.css";
 
 function News() {
     const [dataNews,setDataNews] = useState();
-    const apikey= "f54c8955538e4cf29efa2003b9fc9ef0";
+    const apikey= "";
 
     useEffect(() => {
-    const url="https://newsapi.org/v2/top-headlines?country=us&q=covid&apiKey="+apikey;
+    const url="https://newsapi.org/v2/top-headlines?country=us&q=covid&apiKey=f54c8955538e4cf29efa2003b9fc9ef0";
     fetch(url)
     .then((response)=>response.json())
     .then((data)=> {
